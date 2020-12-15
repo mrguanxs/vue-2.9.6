@@ -6,11 +6,9 @@ import router from './router'
 
 // ElementUI
 import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
 import locale from 'element-ui/lib/locale/lang/en'
 Vue.use(ElementUI, { locale })
-
-// 全局的样式也可以在此引入
-// import '@/styles/index.scss' // global css
 
 Vue.config.productionTip = false
 
